@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 
 <html >
-    <title>D.Howard Scholarship !</title>
+    <title>D.Howard Scholarship</title>
 
  
   
 <head>
 
         <h1 style="background-color:rgb(191, 172, 1); text-align: center;"> D.Howard Scholarship Foundation, LLC.</h1>
-</head>
+        <div class="topnav"; style="background-color:rgb(255, 255, 255); text-align: center;">
+            <a class="active" href="#home";>Home</a> &nbsp;
+            <a href="#news">About</a> &nbsp;
+            <a href="#web">On the Web</a> &nbsp;
+            <a href="#contact">Past Reciepients</a> &nbsp;
+            <a href="#contact">Contact</a> &nbsp;
+        
+        </div>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>D. Howard Scholarship</title>
+            <link rel="stylesheet" href="DHowardHTML.css">
+        
+
+    </head>
 
         <style >
             .wrapper {
@@ -19,7 +34,7 @@
 
             }
             .wrapper> div {
-                background:rgb(57, 57, 57);
+                background:rgb(255, 255, 255);
                 padding: 5px;;
             }
             .wrapper > div:nth-child(odd){
@@ -41,6 +56,18 @@
 
                 background:rgb(191, 172, 1);
             }
+
+
+        </style>
+        <style type="text/css">
+            #wss{
+                opacity:0;
+                -webkit-transition:opacity 1.0s linear 0s;
+                transition:opacity 1.0s linear 0s;
+            
+            
+            }
+            
         </style>
     <body style="background-color: ;black">
 <div class="wrapper">
@@ -74,7 +101,33 @@
         </H3> 
 </div>  
     <div  font-size: 3000px>
-        <h1  style="background-color:rgb(191, 172, 1); text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;"> ABOUT THE D. HOWARD SCHOLARSHIP FOUNDATION </h1> 
+        <h1  style="background-color:rgb(191, 172, 1); text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;"> ABOUT THE D. HOWARD SCHOLARSHIP FOUNDATION </h1>
+        
+        <script>
+            var wss_i = 0;
+            var wss_array = ["As Seen on CBS News","As Heard on Wurd Radio","As Read in VoyageATL Magazine","As Featured on Little Aiden Press","As Read in CanvasRebel Magazine"] ;
+            var wss_elem;
+            function wssNext(){
+        wss_i++
+        wss_elem.style.opacity = 0;
+        if(wss_i > (wss_array.length - 1)) {
+            wss_i = 0;
+        }
+        setTimeout('wssSlide()' , 1000) ;
+            }
+            function wssSlide(){
+        wss_elem.innerHTML = wss_array[wss_i];
+        wss_elem.style.opacity = 1
+        setTimeout('wssNext()' , 2000);
+        
+            }
+        </script>
+        </head>
+        <body>
+         <h1 style="background-color:rgb(255, 255, 255); text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;"><span id="wss"></span>  </h1>
+          <script>wss_elem = document.getElementById("wss"); wssSlide();
+        
+        </script>
         <P  style="background-color:rgb(191, 172, 1); text-align: center; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;"> 
             The D.Howard Scholarship Foundation works to help those beating the stereotypical 
             image of the minority community. The D. Howard Scholarship provides an upcoming college 
@@ -83,17 +136,32 @@
              furthering their education and changing the stereotypical of the minority community, especially 
              as it pertains to those who are left fatherless. The D.Howard Scholarship team members pride ourselves
               in helping young black men stay out of trouble and into education, as “knowledge is power.”</P>
-       
+            
    </div>
 
+<div class="wrapper">
+   <b><p style="background-color:rgb(255, 255, 255); text-align: left;font-size:xxx-large; font-family: Georgia, 'Times New Roman', Times, serif;"><br>Recipient <br><br> Check In</p></b> 
+<div>
+    <h3 style="background-color:rgb(255, 255, 255); text-align: center ;font-size:xx-large; font-family: Georgia, 'Times New Roman', Times, serif;">Jonathan Williams</h3> <br> 
+    &nbsp;
+    &nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    <video source src="DHSRC.mp4" type="video/mp4" width="640" height="480" controls autoplay>  
+         
+        </video> 
+</div>
+
+</div>
 
 <div class="wrapper2">
 
     <p style="background-color:rgb(0, 0, 0); color: rgb(191, 172, 1); text-align: center; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
     For More Information
     check us out on social media : <br> <br>
-    <a href="www.facebook.com/demetrius.howard.750">Facebook: Demetrius Howard</a>  <br>
-    <a href="www.instagram.com/demetrius.alexanderr">Instagram: Demetrius.Alexanderr</a><br>
+    Facebook:<a href="www.facebook.com/demetrius.howard.750"> Demetrius Howard</a>  <br>
+    Instagram:<a href="www.instagram.com/demetrius.alexanderr">Instagram: Demetrius.Alexanderr</a><br>
 </B>
     </p>
 </div>

@@ -1,0 +1,17 @@
+#btn{
+
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin:10px;
+}
+
+.child{
+    border: 10px solid red;
+    padding: 5px;
+    text-align: center;
+}
+
+img{
+    object-fit: scale-down; max-width: 100%;
+}

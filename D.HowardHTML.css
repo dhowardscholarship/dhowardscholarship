@@ -11,7 +11,14 @@
     padding: 5px;
     text-align: center;
 }
+img{
+    object-fit: scale-down; max-width: 100%;
+}
 
 img{
     object-fit: scale-down; max-width: 100%;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
 }

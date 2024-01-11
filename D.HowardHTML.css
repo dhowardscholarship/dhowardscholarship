@@ -16,7 +16,6 @@ img{
     object-fit: scale-down; max-width: 100%;
 }
 .responsive {
-  width: 100%;
-  max-width: 400px;
+  max-width: 100%;
   height: auto;
 }

@@ -13,9 +13,9 @@
 }
 
 img{
-    object-fit: scale-down; max-width: device-width;
+    object-fit: scale-down; max-width: 100px;
 }
 .responsive {
-  max-width: device-width;
+  max-width: 100px;
   height: auto;
 }

@@ -12,9 +12,11 @@
     text-align: center;
 }
 
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-  aspect-ratio: 2/1;
-  object-fit: contain;
+img{
+    object-fit: scale-down; max-width: 100%;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }

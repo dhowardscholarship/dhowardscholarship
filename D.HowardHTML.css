@@ -11,9 +11,10 @@
     padding: 5px;
     text-align: center;
 }
-img,
-video,
-iframe {
+
+img {
   max-inline-size: 100%;
   block-size: auto;
+  aspect-ratio: 2/1;
+  object-fit: contain;
 }
